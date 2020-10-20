@@ -1,0 +1,40 @@
+body{
+    background-color: #f9fbfc;
+    font-size: 23px;
+    
+}
+h7{
+    text-align:left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.card-body{
+    background-color: #f5f7f8;
+    font-size: 13px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#main-content{
+    text-align: left;
+     margin-left: 1px; 
+    font-size: 13px;
+    
+}
+
+#name{
+    margin: 0 auto;
+    font-size: 13px;
+}
+label{
+    font-size: 12px;
+}
+
+.card-title{
+    font-size: 13px;
+}
+
+.card-subtitle{
+    font-size: 13px;
+}
+

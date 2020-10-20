@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Comment Section</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/customStyles.css">
+        <script src="functions.js"></script>
+    </head>
+    
+    <body onload="loadComments()" >
+        
+        
+    <div class="container" style=" background-color: rgb(226, 223, 213);" id="box">
+        <!--<h7>Welcom</h7>-->
+        <div style="font-size: 12px;">
+            <p ></p>අප හා සම්බන්ධ වීමට :-
+            <ul><li>
+                දුරකථන
+                </li>
+                    <ul>
+                        <li>0726724734</li>
+                        <li>0755206315</li>
+                    </ul>
+                <li>විද්‍යුත් තැපෑල</li>
+                    <ul>
+                        <li>ldnjayasekara2020@gmail.com</li>
+                    </ul>
+                <li>සමාජ මාධ්‍ය</li>
+                    <ul>
+                        <li>facebook</li>
+                    </ul>
+            </ul>
+            </p>
+        </div>
+        <div id="comments" class="card mb-2" >   
+           
+        </div>
+
+        <hr>
+
+        <div id="main-content">
+            <p style="font-size:11px;">ඔබේ අදහස් පහතින් දක්වන්න.<p>
+            <div id="make-comment" style="text-align: left;">
+                <div class="form-group" >
+                    <label for="name" >නම:</label> 
+                    <input style="position: absolute; width:250px; border-width: 2px; text-align: left;  font-size: 13px;" class="form-control" type="text" id="name" required>
+                </div><br>
+                <div class="form-group">
+                    <label for="message">ඔබේ අදහස</label>
+                    <textarea class="form-control" id="message" style="border-width: 2px; text-align: left; font-size: 13px;" required onclick="activebtn()"></textarea>
+                </div>
+                <button type="button" style="font-size:11px;" class="btn btn-success" onclick="insertComment()" id="btn1">යවන්න.</button>
+
+            </div>
+
+        </div>
+    </div>  
+    </body>
+</html>
